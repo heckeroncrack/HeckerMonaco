@@ -29,9 +29,9 @@
 	const lang = urlParams.get('l');
 	const lol = "lua";
 	if (!!lang) {
-		lol = "lua"
+		const lol = "lua"
 	} else {
-		lol = lang
+		const lol = lang
 	}
         require(["./vs/editor/editor.main"], function () {
             editor = monaco.editor.create(document.getElementById("container"), {
