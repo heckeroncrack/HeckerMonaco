@@ -27,11 +27,11 @@
 	const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
 	const lang = urlParams.get('l');
-	const lol = "lua";
+	let lol = "lua";
 	if (!!lang) {
-		const lol = "lua"
-	} else {
-		const lol = lang
+		lol = "lua"
+	}else{
+		lol = lang
 	}
         require(["./vs/editor/editor.main"], function () {
             editor = monaco.editor.create(document.getElementById("container"), {
