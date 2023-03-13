@@ -24,11 +24,16 @@
     <script src="./vs/loader.js" type="text/javascript"></script>
     <script type="text/javascript">
         var editor;
-
+	const lang = urlParams.get('l')
+	if (!!lang) {
+		const lol = "lua"
+	} else {
+		const lol = lang
+	}
         require(["./vs/editor/editor.main"], function () {
             editor = monaco.editor.create(document.getElementById("container"), {
                 value: '--[[\n      MADE BY HECKER      \n--]]\nprint("CheatHub On Top")',
-                language: "lua",
+                language: lol,
 				theme: "vs-dark",
 				dragAndDrop: true,
 				links: false,
