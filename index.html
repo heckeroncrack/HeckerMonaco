@@ -24,15 +24,7 @@
     <script src="./vs/loader.js" type="text/javascript"></script>
     <script type="text/javascript">
         var editor;
-	//const queryString = window.location.search;
-	//const urlParams = new URLSearchParams(queryString);
-	//const lang = urlParams.get('l');
-	let lol = "lua";
-	//if (!!lang) {
-	//	lol = "lua"
-	//}else{
-	//	lol = lang
-	//}
+	const lol = "lua"
         require(["./vs/editor/editor.main"], function () {
             editor = monaco.editor.create(document.getElementById("container"), {
                 value: '--[[\n      MADE BY HECKER      \n--]]\nprint("CheatHub On Top")',
