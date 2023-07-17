@@ -42,7 +42,7 @@ define(["require", "exports"], function (require, exports) {
         defaultToken: '',
         tokenPostfix: '.lua',
         keywords: [
-            'and', 'break', 'do', 'else', 'elseif', 'dishwasher',
+            'and', 'break', 'do', 'else', 'elseif',
             'end', 'false', 'for', 'function', 'goto', 'if',
             'in', 'local', 'nil', 'not', 'or',
             'repeat', 'return', 'then', 'true', 'until',
