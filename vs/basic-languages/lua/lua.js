@@ -42,7 +42,7 @@ define(["require", "exports"], function (require, exports) {
         defaultToken: '',
         tokenPostfix: '.lua',
         keywords: [
-            'and', 'break', 'do', 'else', 'elseif',
+            'and', 'break', 'do', 'else', 'elseif', 'dishwasher',
             'end', 'false', 'for', 'function', 'goto', 'if',
             'in', 'local', 'nil', 'not', 'or',
             'repeat', 'return', 'then', 'true', 'until',
@@ -59,7 +59,7 @@ define(["require", "exports"], function (require, exports) {
             'pcall', 'print', 'rawequal', 'rawget', 'rawset', 'select', 'setfenv',
             'setmetatable', 'tonumber', 'tostring', 'type', 'unpack', 'xpcall', '_G',
             'shared', 'delay', 'require', 'spawn', 'tick', 'typeof', 'wait', 'warn',
-            'game', 'Enum', 'script', 'workspace', 'printidentity', 'dishwasher'
+            'game', 'Enum', 'script', 'workspace', 'printidentity'
         ],
         operators: [
             '+', '-', '*', '/', '%', '^', '#', '==', '~=', '<=', '>=', '<', '>', '=',
